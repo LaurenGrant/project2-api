@@ -9,9 +9,9 @@ Back-end content for project 2
 ```
 curl --include --request POST --header "Content-Type: application/json" -d '{
   "credentials": {
-    "email": "test2@test2.com",
-    "password": "test2",
-    "password_confirmation": "test2"
+    "email": "test4@test4.com",
+    "password": "test",
+    "password_confirmation": "test"
   }
 }' http://localhost:3000/register
 ```
